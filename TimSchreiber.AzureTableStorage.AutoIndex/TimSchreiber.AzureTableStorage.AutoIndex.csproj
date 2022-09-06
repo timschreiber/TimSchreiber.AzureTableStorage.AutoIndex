@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Data.Tables" Version="12.6.0" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="6.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TimSchreiber.AsyncPageableExtensions\TimSchreiber.AsyncPageableExtensions.csproj" />
+    <ProjectReference Include="..\TimSchreiber.EnumerableExtensions\TimSchreiber.EnumerableExtensions.csproj" />
+  </ItemGroup>
+
+</Project>
